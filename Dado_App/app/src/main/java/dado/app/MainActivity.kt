@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         // cambia el contenido de la descripcion de las imagenes
         diceImage.contentDescription = diceRoll.toString()
         // envia un mesaje corto al usuario con el valor del dado
-        Toast.makeText(this, "El valor del datos es " + diceRoll, Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "El valor del dado es " + diceRoll, Toast.LENGTH_SHORT).show()
 
     }
 }
